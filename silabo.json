@@ -1,0 +1,930 @@
+{
+  "version": "1.0.0",
+  "actualizado": "2026-10-14",
+  "fuente": "PROF00806 - DISEÑO ESTRUCTURAL I TEORÍA DE LAS ESTRUCTURAS, Sílabo 2026-II (versión 1.0.4, agosto 2026). El sílabo no trae fechas: se asignaron por orden de sesión a los martes y jueves desde el 13/10/2026, sin el feriado del 3/11, las vacaciones del 21/12 al 1/1 ni el carnaval (9/2).",
+  "zona_horaria": "America/Guayaquil",
+  "curso": {
+    "nombre": "Diseño estructural I: Teoría de las estructuras",
+    "codigo": "PROF00806",
+    "facultad": "Arquitectura y Urbanismo",
+    "carrera": "Arquitectura",
+    "sede": "Quito",
+    "nivel": "3ro",
+    "periodo": "2026 II-octubre 2026 – febrero 2027",
+    "prerrequisito": "Atmósferas: El lugar de la arquitectura; Dibujo arquitectónico; Física aplicada a la arquitectura; Geometría descriptiva; Matemática aplicada a la arquitectura II; Taller I: Metáfora es delito; Taller II: El usuario anónimo",
+    "docente": "Francisco Javier Almeida Navarrete",
+    "correo": "francisco.almeida@ute.edu.ec",
+    "aula_virtual": "Aula Virtual (Moodle)",
+    "objetivo": "El objetivo principal de la asignatura es desarrollar en el estudiante de arquitectura la capacidad de calcular y analizar los esfuerzos producidos en elementos estructurales verticales y horizontales, basándose en el estudio de la resistencia de materiales. Le permitirá además recordar cómo calcular el centroide y el momento de inercia de cualquier sección estructural y la capacidad para construir los diagramas de corte y momento flector necesarios para el cálculo de esfuerzos.",
+    "correquisito": "Ninguno",
+    "descripcion": "La asignatura de Diseño Estructural I: Teoría de las Estructuras ofrece al alumno conocimientos sobre el análisis estructural de pórticos (vigas y columnas); aprenderá a construir los diagramas de corte y momento flector. Adicionalmente, se estudiarán nociones básicas sobre resistencia de materiales, ley de Hooke, diagramas de esfuerzo-deformación del acero y del concreto. Para después estudiar los esfuerzos axiales directos, cortantes, flexionantes y torsionales, apoyado en la realización de ejercicios.",
+    "horario": {
+      "dias": "Martes y jueves",
+      "inicio": "09:00",
+      "fin": "11:00",
+      "aula": "por confirmar"
+    },
+    "telefono": null,
+    "telefono_internacional": null,
+    "docente_titulo": "",
+    "moodle": "https://lms.ute.edu.ec/login/"
+  },
+  "tutorias": {
+    "dia": null,
+    "inicio": null,
+    "fin": null,
+    "modalidad": null,
+    "lugar": null,
+    "reserva": null,
+    "canales": [
+      {
+        "tipo": "correo",
+        "texto": "Correo institucional",
+        "enlace": "mailto:francisco.almeida@ute.edu.ec",
+        "detalle": "francisco.almeida@ute.edu.ec"
+      }
+    ],
+    "excepciones": [],
+    "turno_minutos": 15,
+    "anticipacion_dias": 2,
+    "no_disponible": [
+      {
+        "fecha": "2026-10-09",
+        "texto": "Feriado nacional: Independencia de Guayaquil."
+      },
+      {
+        "fecha": "2026-11-27",
+        "texto": "Visita de obra."
+      },
+      {
+        "fecha": "2026-12-25",
+        "texto": "Feriado nacional: Navidad."
+      },
+      {
+        "fecha": "2027-01-01",
+        "texto": "Feriado nacional: Año Nuevo."
+      }
+    ],
+    "aviso": "El horario de tutorías se publicará cuando el docente lo confirme. Mientras tanto, escriba al correo institucional del docente."
+  },
+  "unidades": [
+    {
+      "id": "1",
+      "titulo": "Análisis estructural"
+    },
+    {
+      "id": "2",
+      "titulo": "Pórticos"
+    },
+    {
+      "id": "3",
+      "titulo": "Resistencia de materiales"
+    },
+    {
+      "id": "4",
+      "titulo": "Teoría de los esfuerzos"
+    },
+    {
+      "id": "C",
+      "titulo": "Consolidación final de aprendizajes"
+    }
+  ],
+  "sesiones": [
+    {
+      "n": 1,
+      "fecha": "2026-10-13",
+      "unidad": "1",
+      "tema": "Unidad 1. Análisis estructural. 1.1 Equilibrio de un cuerpo rígido. Tipos de apoyos. Diagrama de cuerpo libre.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IANP",
+        "texto": "Conversatorio y socialización del sílabo: metodología de trabajo, criterios de evaluación, niveles de uso de IA y canales de comunicación (Aula Virtual, chat del curso). Introducción al equilibrio de un cuerpo rígido, tipos de apoyos y diagrama de cuerpo libre."
+      },
+      "ape": null,
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Repaso: dibujar el diagrama de cuerpo libre de tres elementos sencillos (viga simplemente apoyada, voladizo y viga con apoyo articulado y rodillo), indicando el tipo de cada apoyo y sus reacciones. IA solo para aclarar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "fecha": "2026-10-15",
+      "unidad": "1",
+      "tema": "1.2 Reacciones en los apoyos con cargas puntuales. Ejercicios de aplicación. 1.3 Construcción de los diagramas de corte y momento: método de áreas.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del tema y resolución en la pizarra de ejemplos de cálculo de reacciones con cargas puntuales y de diagramas de corte y momento por el método de áreas. Conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Vigas isostáticas con cargas puntuales."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 1: reacciones y diagramas de corte y momento (método de áreas) en vigas con cargas puntuales. IA solo para explicar conceptos, declarada; los cálculos son propios."
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "fecha": "2026-10-20",
+      "unidad": "1",
+      "tema": "1.4 Reacciones en los apoyos con cargas distribuidas. Ejercicios de aplicación. 1.5 Construcción de los diagramas de corte y momento: método de áreas.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del tema: carga distribuida uniforme y triangular, resultante y punto de aplicación; reacciones y diagramas de corte y momento por el método de áreas. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Vigas con cargas distribuidas."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 2: reacciones y diagramas de corte y momento (método de áreas) en vigas con cargas distribuidas. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "fecha": "2026-10-22",
+      "unidad": "1",
+      "tema": "1.6 Reacciones en los apoyos con cargas puntuales. Ejercicios de aplicación. 1.7 Construcción de los diagramas de corte y momento: método de secciones.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del método de secciones: ecuaciones de corte y momento por tramos con cargas puntuales; comparación con el método de áreas. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Método de secciones con cargas puntuales."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 3: ecuaciones de corte y momento por el método de secciones (cargas puntuales) y comprobación con el método de áreas. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "fecha": "2026-10-27",
+      "unidad": "1",
+      "tema": "1.8 Reacciones en los apoyos con cargas distribuidas. Ejercicios de aplicación. 1.9 Construcción de los diagramas de corte y momento: método de secciones.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del método de secciones con cargas distribuidas: momento máximo y punto de corte nulo. Ejemplos en la pizarra y conversatorio. Cierre de la Unidad 1."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Método de secciones con cargas distribuidas y combinadas."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 4: vigas con cargas distribuidas y combinadas por el método de secciones, ubicando el momento máximo. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "fecha": "2026-10-29",
+      "unidad": "2",
+      "tema": "Unidad 2. Pórticos. 2.1 Introducción al análisis de pórticos. 2.2 Cálculo y obtención de diagramas de fuerzas axiales, cortantes y de momento flector.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del tema: pórticos isostáticos, convención de signos, nudos rígidos y diagramas de fuerza axial, cortante y momento flector. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Primeros pórticos isostáticos."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 5: reacciones y diagramas de axial, cortante y momento en dos pórticos isostáticos sencillos. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "fecha": "2026-11-05",
+      "unidad": "2",
+      "tema": "2.3 Análisis de pórticos con cargas puntuales: diagramas de fuerzas axiales, cortantes y de momento flector. Ejercicios de aplicación.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación y resolución en la pizarra de pórticos con cargas puntuales: equilibrio de nudos y trazado de diagramas por elemento. Conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Pórticos con cargas puntuales."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 6: pórticos con cargas puntuales, con los tres diagramas dibujados a escala. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "fecha": "2026-11-10",
+      "unidad": "2",
+      "tema": "2.4 Análisis de pórticos con cargas distribuidas: diagramas de fuerzas axiales, cortantes y de momento flector. Ejercicios de aplicación.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación y resolución en la pizarra de pórticos con cargas distribuidas y combinadas. Conversatorio. Cierre de la Unidad 2."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Pórticos con cargas distribuidas."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 7: pórticos con cargas distribuidas y combinadas. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "fecha": "2026-11-12",
+      "unidad": "3",
+      "tema": "Unidad 3. Resistencia de materiales. 3.1 Introducción a la resistencia de materiales: conceptos fundamentales.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del tema: esfuerzo, deformación, tipos de solicitación (axial, cortante, flexión, torsión) y propiedades de los materiales. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Esfuerzo normal y cortante promedio."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 8: esfuerzo normal y cortante promedio en elementos simples. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "fecha": "2026-11-17",
+      "unidad": "3",
+      "tema": "3.2 Introducción a la resistencia de materiales: ley de Hooke. Módulo de elasticidad. Materiales.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAAD",
+        "texto": "Explicación de la ley de Hooke y del módulo de elasticidad de los materiales de construcción (acero, concreto, madera). Ejemplos en la pizarra y conversatorio. En esta sesión se permite el uso amplio de IA con declaración."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Ley de Hooke y módulo de elasticidad."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 9: ley de Hooke y comparación del módulo de elasticidad de acero, concreto y madera. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "fecha": "2026-11-19",
+      "unidad": "3",
+      "tema": "3.3 Esfuerzo directo, deformación y diseño. 3.4 Diagrama esfuerzo–deformación del concreto.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del esfuerzo directo y la deformación en el diseño, y del diagrama esfuerzo–deformación del concreto (f'c, comportamiento no lineal). Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Esfuerzo directo y diseño de elementos a tensión y compresión."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 10: esfuerzo directo y dimensionamiento de elementos; lectura del diagrama esfuerzo–deformación del concreto. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "fecha": "2026-11-24",
+      "unidad": "3",
+      "tema": "3.5 Esfuerzo directo, deformación y diseño. 3.6 Diagrama esfuerzo–deformación del acero.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del diagrama esfuerzo–deformación del acero (zona elástica, fluencia Fy, endurecimiento, rotura) y su uso en el diseño. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Diseño por esfuerzo directo en acero."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 11: diseño por esfuerzo directo en acero y lectura del diagrama esfuerzo–deformación. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "fecha": "2026-11-26",
+      "unidad": "3",
+      "tema": "3.7 Deformación elástica en miembros sometidos a tensión y compresión.",
+      "evaluacion": null,
+      "hito": "Tarea integral del parcial 1 (se evalúa con rúbrica).",
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación de la deformación elástica (δ = PL/AE) en miembros a tensión y compresión. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IANP",
+        "texto": "Resolver la tarea integral del parcial 1, que integra los temas de las Unidades 1 a 3. Se evalúa con rúbrica. Actividad sin IA."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Taller práctico de deformación elástica (δ = PL/AE) y repaso para el Parcial 1. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "fecha": "2026-12-01",
+      "unidad": "3",
+      "tema": "3.8 Consolidación de aprendizajes: PARCIAL 1.",
+      "evaluacion": "Examen Parcial 1 (Unidades 1 a 3, hasta el tema 3.7), individual, en aula, sin dispositivos ni uso de IA.",
+      "hito": null,
+      "acd": {
+        "ia": "IANP",
+        "texto": "Aplicación de la prueba escrita del Parcial 1, en base a ejercicios. Evaluación presencial controlada."
+      },
+      "ape": null,
+      "aa": [
+        {
+          "ia": "IANP",
+          "texto": "Ejercicios de selección múltiple y de desarrollo del Parcial 1, resueltos en forma individual."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "fecha": "2026-12-03",
+      "unidad": "3",
+      "tema": "3.9 Retroalimentación P1: análisis individual de desempeño.",
+      "evaluacion": null,
+      "hito": "Autoevaluación del Parcial 1 (ficha de autoevaluación).",
+      "acd": {
+        "ia": "IANP",
+        "texto": "Resolución en la pizarra de los ejercicios del examen Parcial 1."
+      },
+      "ape": {
+        "ia": "IANP",
+        "texto": "Autoevaluación individual del Parcial 1 con la ficha de autoevaluación."
+      },
+      "aa": [
+        {
+          "ia": "IANP",
+          "texto": "Completar la ficha de autoevaluación: identificar los errores del Parcial 1 y corregir cada ejercicio."
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "fecha": "2026-12-08",
+      "unidad": "3",
+      "tema": "3.10 Espacio de retroalimentación entre pares P1.",
+      "evaluacion": null,
+      "hito": "Coevaluación entre pares (ficha de coevaluación).",
+      "acd": null,
+      "ape": {
+        "ia": "IANP",
+        "texto": "Coevaluación en grupos: cada estudiante valora la participación, el cumplimiento y el aporte de sus compañeros con la ficha de coevaluación."
+      },
+      "aa": []
+    },
+    {
+      "n": 17,
+      "fecha": "2026-12-10",
+      "unidad": "3",
+      "tema": "3.11 Deformación elástica en miembros sometidos a tensión y compresión.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación de casos de deformación elástica: miembros compuestos y efecto de la temperatura. Ejemplos en la pizarra y conversatorio. Cierre de la Unidad 3."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Deformación en miembros compuestos."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 12: deformación elástica en miembros a tensión y compresión. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "fecha": "2026-12-15",
+      "unidad": "4",
+      "tema": "Unidad 4. Teoría de los esfuerzos. 4.1 Cálculo del centroide y del momento de inercia de una sección estructural combinada.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del centroide y del momento de inercia de secciones combinadas (teorema de ejes paralelos). Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Secciones T, I y L."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 13: centroide y momento de inercia de secciones T, I y L. Puede comprobar los resultados con GeoGebra. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "fecha": "2026-12-17",
+      "unidad": "4",
+      "tema": "4.2 Cálculo del centroide y del momento de inercia de una sección estructural combinada.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Resolución en la pizarra de secciones compuestas más complejas (perfiles y secciones huecas). Conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Secciones compuestas."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 14: centroide y momento de inercia de secciones compuestas. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "fecha": "2027-01-05",
+      "unidad": "4",
+      "tema": "4.3 Esfuerzo producido por tensión y flexión: ecuaciones. Resolución de ejercicios.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del esfuerzo combinado por tensión y flexión (σ = P/A ± Mc/I). Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Tensión y flexión combinadas."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 15: esfuerzo por tensión y flexión. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "fecha": "2027-01-07",
+      "unidad": "4",
+      "tema": "4.4 Esfuerzo producido por tensión y flexión: ecuaciones. Resolución de ejercicios.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Resolución en la pizarra de casos de tensión y flexión en vigas y elementos reales. Conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Distribución de esfuerzos en la sección."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 16: tensión y flexión con diagramas de distribución de esfuerzos. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "fecha": "2027-01-12",
+      "unidad": "4",
+      "tema": "4.5 Esfuerzo producido por compresión y flexión: fórmula de Navier. Resolución de ejercicios.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación de la fórmula de Navier para compresión y flexión (carga excéntrica, núcleo central). Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Columnas con carga excéntrica."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 17: compresión y flexión con la fórmula de Navier. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "fecha": "2027-01-14",
+      "unidad": "4",
+      "tema": "4.6 Esfuerzo cortante: tensiones tangenciales en vigas de sección maciza.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del esfuerzo cortante en vigas (τ = VQ/Ib) en secciones macizas. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Esfuerzo cortante en secciones rectangulares."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 18: esfuerzo cortante en vigas de sección rectangular. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "fecha": "2027-01-19",
+      "unidad": "4",
+      "tema": "4.7 Esfuerzo cortante: tensiones tangenciales en vigas de sección maciza.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Resolución en la pizarra de esfuerzo cortante en secciones T e I y su distribución en la altura. Conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Distribución del cortante en secciones T e I."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 19: distribución del esfuerzo cortante en secciones T e I. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "fecha": "2027-01-21",
+      "unidad": "4",
+      "tema": "4.8 Esfuerzo cortante: tensiones tangenciales en vigas de sección maciza.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Integración de flexión y cortante en el diseño de vigas: verificación de esfuerzos. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Verificación de vigas a flexión y cortante."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 20: verificación de vigas a flexión y cortante. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "fecha": "2027-01-26",
+      "unidad": "4",
+      "tema": "4.9 Deflexión en vigas: viga conjugada. Resolución de ejercicios.",
+      "evaluacion": null,
+      "hito": null,
+      "acd": {
+        "ia": "IAA",
+        "texto": "Explicación del método de la viga conjugada para calcular giros y deflexiones. Ejemplos en la pizarra y conversatorio."
+      },
+      "ape": {
+        "ia": "IAA",
+        "texto": "Taller práctico guiado en clase: resolución de ejercicios de aplicación, primero con el docente y luego en parejas, revisados con la rúbrica del taller. Deflexiones por viga conjugada."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Resolver la hoja de ejercicios 21: deflexiones por el método de la viga conjugada. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "fecha": "2027-01-28",
+      "unidad": "4",
+      "tema": "4.10 Deflexión en vigas. Resolución de ejercicios.",
+      "evaluacion": null,
+      "hito": "Tarea integral del parcial 2 (se evalúa con rúbrica).",
+      "acd": {
+        "ia": "IAA",
+        "texto": "Resolución en la pizarra de deflexiones en vigas y comparación con los límites admisibles. Conversatorio."
+      },
+      "ape": {
+        "ia": "IANP",
+        "texto": "Resolver la tarea integral del parcial 2, que integra los temas de la Unidad 4 y el tema 3.11. Se evalúa con rúbrica. Actividad sin IA."
+      },
+      "aa": [
+        {
+          "ia": "IAA",
+          "texto": "Taller práctico de deflexión en vigas y repaso para el Parcial 2. IA solo para explicar conceptos, declarada."
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "fecha": "2027-02-02",
+      "unidad": "4",
+      "tema": "4.11 Consolidación de aprendizajes: PARCIAL 2.",
+      "evaluacion": "Examen Parcial 2 (tema 3.11 y Unidad 4), individual, en aula, sin dispositivos ni uso de IA.",
+      "hito": null,
+      "acd": {
+        "ia": "IANP",
+        "texto": "Aplicación de la prueba escrita del Parcial 2, en base a ejercicios. Evaluación presencial controlada."
+      },
+      "ape": null,
+      "aa": [
+        {
+          "ia": "IANP",
+          "texto": "Ejercicios de selección múltiple y de desarrollo del Parcial 2, resueltos en forma individual."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "fecha": "2027-02-04",
+      "unidad": "4",
+      "tema": "4.12 Retroalimentación P2: análisis individual de desempeño.",
+      "evaluacion": null,
+      "hito": "Autoevaluación del Parcial 2 (ficha de autoevaluación).",
+      "acd": {
+        "ia": "IANP",
+        "texto": "Resolución en la pizarra de los ejercicios del examen Parcial 2."
+      },
+      "ape": {
+        "ia": "IANP",
+        "texto": "Autoevaluación individual del Parcial 2 con la ficha de autoevaluación."
+      },
+      "aa": [
+        {
+          "ia": "IANP",
+          "texto": "Completar la ficha de autoevaluación: identificar los errores del Parcial 2 y corregir cada ejercicio."
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "fecha": "2027-02-11",
+      "unidad": "4",
+      "tema": "4.13 Espacio de retroalimentación entre pares P2.",
+      "evaluacion": null,
+      "hito": "Coevaluación entre pares (ficha de coevaluación).",
+      "acd": null,
+      "ape": {
+        "ia": "IANP",
+        "texto": "Coevaluación en grupos con la ficha de coevaluación. Repaso general para el examen final."
+      },
+      "aa": []
+    },
+    {
+      "n": 31,
+      "fecha": "2027-02-16",
+      "unidad": "C",
+      "tema": "5. Consolidación final de aprendizajes: EXAMEN FINAL.",
+      "evaluacion": "Examen Final (todo el curso), individual, en aula, sin dispositivos ni uso de IA. Evaluación final sumativa: 100 % del componente; 30 % de la ponderación global.",
+      "hito": null,
+      "acd": {
+        "ia": "IANP",
+        "texto": "Aplicación de la prueba escrita del examen final, en base a ejercicios. Evaluación presencial controlada."
+      },
+      "ape": null,
+      "aa": [
+        {
+          "ia": "IANP",
+          "texto": "Ejercicios de selección múltiple y de desarrollo del examen final, resueltos en forma individual."
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "fecha": "2027-02-18",
+      "unidad": "C",
+      "tema": "5.1 Retroalimentación final: revisión de notas.",
+      "evaluacion": null,
+      "hito": "Revisión de notas del examen final.",
+      "acd": {
+        "ia": "IANP",
+        "texto": "Resolución en la pizarra de los ejercicios del examen final y revisión de notas."
+      },
+      "ape": null,
+      "aa": []
+    }
+  ],
+  "eventos": [],
+  "recursos": [
+    {
+      "grupo": "Bibliografía básica",
+      "referencia": "Mott, Robert L. (2009). Resistencia de materiales (5.ª edición). Prentice Hall (Pearson).",
+      "tipo": "Libro",
+      "acceso": "biblioteca",
+      "codigo": "44561",
+      "enlace": "https://www.ute.edu.ec/biblioteca/",
+      "texto_enlace": "Buscar en la Biblioteca UTE"
+    },
+    {
+      "grupo": "Bibliografía básica",
+      "referencia": "Hibbeler, R. C. (2010). Ingeniería mecánica: Estática (12.ª edición). Prentice Hall (Pearson).",
+      "tipo": "Libro",
+      "acceso": "biblioteca",
+      "codigo": "48902",
+      "enlace": "https://www.ute.edu.ec/biblioteca/",
+      "texto_enlace": "Buscar en la Biblioteca UTE"
+    },
+    {
+      "grupo": "Bibliografía básica",
+      "referencia": "Beer, F. P. y Johnston, E. R. (2017). Mecánica vectorial para ingenieros: Estática (11.ª edición). McGraw-Hill.",
+      "tipo": "Libro",
+      "acceso": "biblioteca",
+      "codigo": "34145",
+      "enlace": "https://www.ute.edu.ec/biblioteca/",
+      "texto_enlace": "Buscar en la Biblioteca UTE"
+    },
+    {
+      "grupo": "Bibliografía complementaria",
+      "referencia": "MIDUVI. Norma Ecuatoriana de la Construcción NEC 2015: Cargas no sísmicas (NEC-SE-CG).",
+      "tipo": "Norma",
+      "acceso": "abierto",
+      "codigo": null,
+      "enlace": "https://www.habitatyvivienda.gob.ec/wp-content/uploads/2023/03/1.-NEC-SE-CG-Cargas-No-Sismicas.pdf",
+      "texto_enlace": "Abrir la NEC-SE-CG (PDF del MIDUVI)"
+    },
+    {
+      "grupo": "Bibliografía complementaria",
+      "referencia": "ACI. Requisitos de reglamento para concreto estructural (ACI 318).",
+      "tipo": "Código",
+      "acceso": "abierto",
+      "codigo": null,
+      "enlace": "https://ingenieria-civil.github.io/chile/normas/NormaACI318_05espa_ol.pdf",
+      "texto_enlace": "Abrir el enlace del sílabo (PDF)",
+      "nota": "El sílabo cita la edición ACI 318-22, pero su enlace abre la versión en español de 2005."
+    }
+  ],
+  "politicas": {
+    "evaluacion_tabla": [
+      {
+        "periodo": "Primera Evaluación Parcial",
+        "formativo": "60%",
+        "sumativo": "40%",
+        "global": "35%"
+      },
+      {
+        "periodo": "Segunda Evaluación Parcial",
+        "formativo": "60%",
+        "sumativo": "40%",
+        "global": "35%"
+      },
+      {
+        "periodo": "Evaluación Final o sumativa",
+        "formativo": "-",
+        "sumativo": "100%",
+        "global": "30%"
+      }
+    ],
+    "evaluacion_total": "100%",
+    "ia_conducta": [
+      "Asumir el rol de autor principal en todas las actividades académicas, utilizando la Inteligencia Artificial (IA) exclusivamente como una herramienta de apoyo para la comprensión o síntesis, asegurando que el razonamiento, análisis y criterio personal sean el eje central de sus trabajos, tareas y evaluaciones.",
+      "Declarar obligatoriamente el uso de IA en sus trabajos y tareas (especificando herramienta y alcance) bajo Normas APA 7.ª edición, para salvaguardar la integridad académica.",
+      "Mantener una conducta ética durante las evaluaciones, absteniéndose del uso de IA o cualquier recurso no autorizado, asumiendo la responsabilidad total sobre la evaluación de su aprendizaje."
+    ],
+    "niveles_ia": {
+      "IANP": {
+        "nombre": "IA no permitida",
+        "texto": "Nivel de uso no permitido (IANP).- implica que en las actividades y evaluaciones los estudiantes no pueden utilizar la IA de ninguna forma. Para asegurarlo el docente debe organizar actividades y evaluaciones con control absoluto, privilegiando la implementación de evaluaciones orales, exposiciones, defensas o actividades presenciales con la supervisión del docente. También implica la instalación de restricciones para el uso de otras aplicaciones o el acceso a internet en los laboratorios de la universidad en los momentos en los que se realizan estas evaluaciones o actividades, lo que deberá coordinar con antelación con la Dirección de Sistemas Digitales."
+      },
+      "IAA": {
+        "nombre": "IA acotada",
+        "texto": "Nivel de uso acotado (IAA).- implica que se permite el uso de la IA para la realización de ciertos aspectos de las actividades o evaluaciones, así como la restricción del uso de la misma para otros puntos. En este nivel, el uso de la IA también debe ser declarado por el estudiante y propicia la retroalimentación del docente."
+      },
+      "IAAD": {
+        "nombre": "IA amplia con declaración",
+        "texto": "Nivel de uso amplio con declaración (IAAD).- implica el uso de la IA sin restricción en el marco de actividades y evaluaciones que persiguen el desarrollo de competencias que se encuentran en el 3er nivel taxonómico de habilidades cognitivas “Resolución de Problemas”, como son: detección de errores, creación, evaluación, argumentación, toma de decisiones, planificación de acciones, etc). En este nivel de uso de la IA obliga a que el estudiante informe o declare sobre el tipo de IA utilizada y fines de uso; así también, propicia la retroalimentación del docente."
+      }
+    },
+    "componentes": {
+      "ACD": {
+        "nombre": "En clase",
+        "texto": "ACD (Aprendizaje en Contacto con el Docente): Hace referencia a las horas de aprendizaje sincrónico o en interacción directa presencial/virtual con el docente. Son obligatorias en todas las sesiones de clase e incluyen actividades como clases magistrales, talleres en aula o debates guiados."
+      },
+      "APE": {
+        "nombre": "Práctica",
+        "texto": "APE (Aprendizaje Práctico-Experimental): Corresponde a las actividades de aplicación práctica desarrolladas bajo la guía o acompañamiento del docente. Se planifican de forma semanal e incluyen laboratorios, simulaciones, resolución de problemas o talleres aplicados"
+      },
+      "AA": {
+        "nombre": "Trabajo autónomo",
+        "texto": "AA (Aprendizaje Autónomo): Se refiere al trabajo e investigación individual que el estudiante realiza fuera del aula de clase. Abarca actividades como lecturas, ensayos, elaboración de mapas mentales o resolución de cuestionarios de preparación y refuerzo"
+      }
+    },
+    "recursos_aprendizaje": [
+      {
+        "titulo": "Plataformas Institucionales y Entornos Virtuales",
+        "items": [
+          "Aula Virtual (Moodle): Repositorio principal de material asíncrono, recepción de entregables y gestión del aprendizaje autónomo.",
+          "Plataformas de videoconferencia: Microsoft Teams o Zoom (para tutorías virtuales o seguimiento de proyectos).",
+          "Bases de datos de la Biblioteca Virtual: Repositorios institucionales."
+        ]
+      },
+      {
+        "titulo": "Software y Herramientas Tecnológicas Especializadas",
+        "items": [
+          "Herramientas de modelado matemático y simulación: GeoGebra."
+        ]
+      },
+      {
+        "titulo": "Materiales Didácticos y Bibliográficos",
+        "items": [
+          "Guías de estudio y material en PDF.",
+          "Videos interactivos o píldoras de aprendizaje (Flipped Learning)."
+        ]
+      },
+      {
+        "titulo": "Equipos e Infraestructura Física",
+        "items": [
+          "Pizarra, proyector multimedia."
+        ]
+      }
+    ]
+  },
+  "entregas": {
+    "regla": "El trabajo autónomo se entrega en la siguiente clase, una hora antes de que empiece.",
+    "minutos_antes": 60
+  },
+  "fotos": [
+    {
+      "archivo": "foto-1.jpg",
+      "alt": "Pórticos de acero gris con vigas y columnas en construcción"
+    },
+    {
+      "archivo": "foto-2.jpg",
+      "alt": "Estructura metálica verde de varios pisos con vigas secundarias"
+    },
+    {
+      "archivo": "foto-3.jpg",
+      "alt": "Pórticos con columnas azules, vigas rojas y arriostramientos en X"
+    },
+    {
+      "archivo": "foto-4.jpg",
+      "alt": "Vigas amarillas y arriostramientos de acero vistos desde abajo"
+    },
+    {
+      "archivo": "foto-5.jpg",
+      "alt": "Estructura metálica verde con conexiones empernadas sobre la cimentación"
+    },
+    {
+      "archivo": "foto-6.jpg",
+      "alt": "Detalle de una viga verde con conexión empernada"
+    },
+    {
+      "archivo": "foto-7.jpg",
+      "alt": "Detalle de conexiones empernadas en vigas verdes"
+    }
+  ]
+}
