@@ -36,7 +36,7 @@ Este sitio **complementa** el Aula Virtual (Moodle). No recibe entregas ni regis
 
 Una página web publicada en GitHub Pages no puede enviar correos por sí sola sin un servidor; por eso el envío pasa por su programa de correo, en un solo paso.
 
-**El Excel de cada sesión** (`Asistencia_PROF00806_S06_2026-10-29.xlsx`) tiene dos hojas:
+**El Excel de cada sesión** (`Asistencia_PROF00806_S06_2026-10-22.xlsx`) tiene dos hojas:
 - **Sesión:** los estudiantes en orden de lista (alfabético), con Presente o Falta, hora y forma de registro (QR o manual), más presentes, faltas y porcentaje calculados con fórmulas de Excel.
 - **Semestre:** una columna P/F por cada sesión registrada, con asistencias, sesiones y porcentaje de cada estudiante, y los presentes por sesión.
 
@@ -59,14 +59,14 @@ El horario de tutorías aún no está definido: la sección «Contacto y tutorí
 
 ## Fechas del curso
 
-El sílabo no trae fechas. Las 32 sesiones se asignaron en orden a los martes y jueves desde el 13/10/2026, sin el feriado del 3/11, las vacaciones del 21/12 al 1/1 ni el carnaval (9/2). Así quedan el **Parcial 1 el 1/12** (sesión 14), el **Parcial 2 el 2/2** (sesión 28) y el **Examen final el 16/2** (sesión 31). Si el calendario académico fija otras fechas, cámbielas en `silabo.json`.
+El sílabo no trae fechas. Las 32 sesiones se asignaron en orden a los martes y jueves desde el 6/10/2026 (sesión 1), sin el feriado del 3/11, las vacaciones del 21/12 al 1/1 ni el carnaval (9/2). Así quedan el **Parcial 1 el 24/11** (sesión 14), el **Parcial 2 el 26/1** (sesión 28) y el **Examen final el 4/2** (sesión 31). Si el calendario académico fija otras fechas, cámbielas en `silabo.json`.
 
 ## Cómo actualizar una fecha, un tema o un enlace
 
 Todo el contenido del curso está en `silabo.json`. El diseño (los archivos `.html`, `.css` y `.js`) no se toca durante el semestre.
 
 1. En GitHub, abra `silabo.json` y pulse el ícono del lápiz (Edit this file).
-2. Cambie solo el texto entre comillas. Por ejemplo, para mover el Parcial 1, busque `"2026-12-01"` en la sección `sesiones` y escriba la nueva fecha con el mismo formato (año-mes-día).
+2. Cambie solo el texto entre comillas. Por ejemplo, para mover el Parcial 1, busque `"2026-11-24"` en la sección `sesiones` y escriba la nueva fecha con el mismo formato (año-mes-día).
 3. Actualice también `"actualizado"` con la fecha de hoy.
 4. Pulse **Commit changes**. El sitio se actualiza solo en uno o dos minutos.
 
